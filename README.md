@@ -133,3 +133,8 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 
 - Gracias a Scroll y Arbitrum por proporcionar las redes de prueba.
 - Gracias a la comunidad de Ethereum por su continuo apoyo al desarrollo de dApps.
+
+## Extra 
+
+Sepolia address 
+https://sepolia.scrollscan.com/address/0xD38D3C4865c784100493d4eAfAA2BFA37C28FA31
