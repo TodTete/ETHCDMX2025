@@ -138,3 +138,5 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 
 Sepolia address 
 https://sepolia.scrollscan.com/address/0xD38D3C4865c784100493d4eAfAA2BFA37C28FA31
+Arbitrum address + Contract Verify
+https://sepolia.arbiscan.io/address/0x4f523935f69247c6780536f4f38febc8bf5cec55#code
