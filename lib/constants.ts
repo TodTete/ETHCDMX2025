@@ -1,14 +1,14 @@
 export const NETWORKS = [
-  {
+ {
     name: "Scroll Sepolia",
     chainId: 534351,
-    contractAddress: "", // Replace with your deployed contract address on Scroll
+    contractAddress: "0xd38d3c4865c784100493d4eafaa2bfa37c28fa31", // Replace with your deployed contract address on Scroll
     icon: "/scroll-icon.ico",
   },
   {
     name: "Arbitrum Sepolia",
     chainId: 421614,
-    contractAddress: "", // Replace with your deployed contract address on Arbitrum
+    contractAddress: "0x6206835510b4eefb90d5079187aad73d9b5972b6", // Replace with your deployed contract address on Arbitrum
     icon: "/arbitrum-icon.ico",
   },
 ]
