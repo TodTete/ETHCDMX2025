@@ -9,7 +9,8 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Cross-Chain Polling System",
-  description: "Create and vote on polls across different blockchain networks"
+  description: "Create and vote on polls across different blockchain networks",
+    generator: 'v0.dev'
 }
 
 export default function RootLayout({

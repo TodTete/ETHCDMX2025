@@ -1,13 +1,6 @@
 "use client"
 
 import { useState, useEffect } from "react"
-
-// Extend the Window interface to include the ethereum property
-declare global {
-  interface Window {
-    ethereum?: any
-  }
-}
 import { ethers } from "ethers"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"

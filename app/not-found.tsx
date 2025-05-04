@@ -35,7 +35,7 @@ export default function NotFound() {
       </p>
       <Button
         asChild
-        className="not-found-button bg-gradient-to-r from-purple-600 to-blue-500 hover:from-purple-700 hover:to-blue-600 transition-all duration-300 opacity-0 transform translate-y-6 delay-200"
+        className="not-found-button bg-gradient-to-r from-purple-600 to-blue-500 hover:from-purple-700 hover:to-blue-600 transition-all duration-300 opacity-0 transform translate-y-6 transition-all duration-500 delay-200"
         size="lg"
       >
         <Link href="/">Return to Home</Link>

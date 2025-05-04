@@ -3,7 +3,9 @@
 import { Button } from "@/components/ui/button"
 import { Loader2, Wallet } from "lucide-react"
 import { useEffect, useRef } from "react"
-
+// Remove the anime.js import
+// Remove this line:
+// import anime from "animejs/lib/anime.es.js"
 
 type ConnectWalletProps = {
   isConnected: boolean
