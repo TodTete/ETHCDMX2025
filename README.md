@@ -1,7 +1,5 @@
 # Cross-Chain Polling System
 
-![Cross-Chain Polling System](https://placeholder.svg?height=300&width=600&text=Cross-Chain+Polling+System)
-
 ## 📋 Descripción
 
 Cross-Chain Polling System es una aplicación descentralizada (dApp) que permite a los usuarios crear y participar en encuestas a través de diferentes redes blockchain. La aplicación está diseñada para funcionar en múltiples cadenas, específicamente en Scroll Sepolia y Arbitrum Sepolia, permitiendo a los usuarios interactuar con la misma interfaz independientemente de la red que estén utilizando.
