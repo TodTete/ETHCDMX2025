@@ -1,142 +1,177 @@
-# Cross-Chain Polling System
+# 🌐 Cross-Chain Polling System
+
+**Cross-Chain Polling System** es una **dApp** que permite crear y participar en encuestas a través de diferentes redes blockchain.  
+Actualmente soporta **Scroll Sepolia** y **Arbitrum Sepolia**, pero está diseñada para escalar a más cadenas.
+
+[![Repo](https://img.shields.io/badge/GitHub-TodTete-blue?logo=github)](https://github.com/TodTete/ETHCDMX2025)
+[![Status](https://img.shields.io/badge/status-en%20desarrollo-orange)](#estado)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+
+---
 
 ## 📋 Descripción
 
-Cross-Chain Polling System es una aplicación descentralizada (dApp) que permite a los usuarios crear y participar en encuestas a través de diferentes redes blockchain. La aplicación está diseñada para funcionar en múltiples cadenas, específicamente en Scroll Sepolia y Arbitrum Sepolia, permitiendo a los usuarios interactuar con la misma interfaz independientemente de la red que estén utilizando.
+El sistema resuelve la **fragmentación entre cadenas** unificando la experiencia de usuario.  
+Todos los votos y encuestas se almacenan en **blockchain**, garantizando transparencia, inmutabilidad y resistencia a fraudes.
+
+---
 
 ## 🚀 Características
 
-- **Votación Descentralizada**: Todas las encuestas y votos se almacenan en la blockchain, garantizando transparencia e inmutabilidad.
-- **Compatibilidad Multi-Cadena**: Funciona en Scroll Sepolia y Arbitrum Sepolia, con la capacidad de expandirse a más redes.
-- **Interfaz Moderna y Responsiva**: Diseño atractivo con animaciones fluidas y soporte para dispositivos móviles.
-- **Modo Oscuro/Claro**: Cambia entre temas para una mejor experiencia visual.
-- **Notificaciones Toast**: Retroalimentación clara sobre acciones del usuario y transacciones.
-- **Fondo Animado de Partículas**: Visualización dinámica que mejora la experiencia del usuario.
-- **Página 404 Personalizada**: Manejo elegante de rutas no encontradas.
+- 🗳️ **Votación Descentralizada** → Todos los votos se guardan en la blockchain.  
+- 🔗 **Compatibilidad Multi-Cadena** → Soporte inicial para **Scroll Sepolia** y **Arbitrum Sepolia**.  
+- 💻 **Interfaz Moderna** → Animaciones fluidas y responsive.  
+- 🌓 **Modo Oscuro/Claro** → Experiencia personalizada.  
+- 🔔 **Notificaciones Toast** → Feedback en transacciones.  
+- ✨ **Extras visuales** → Fondo animado de partículas + página 404 personalizada.  
+
+---
 
 ## 🔍 Problema que Resuelve
 
-El proyecto aborda varios desafíos importantes en el ecosistema blockchain:
+1. **Fragmentación** → Unifica interacción entre distintas redes.  
+2. **Complejidad técnica** → Interfaz simple para usuarios no técnicos.  
+3. **Falta de transparencia** → Votación auditable en blockchain.  
+4. **UX en dApps** → UI/UX moderna, inspirada en aplicaciones Web2.  
 
-1. **Fragmentación entre Cadenas**: Unifica la experiencia de usuario a través de diferentes redes blockchain, permitiendo a los usuarios interactuar con la misma aplicación independientemente de la red que estén utilizando.
-
-2. **Complejidad de Uso**: Simplifica la interacción con contratos inteligentes a través de una interfaz intuitiva y amigable, haciendo que la tecnología blockchain sea más accesible para usuarios no técnicos.
-
-3. **Transparencia en Votaciones**: Proporciona un sistema de votación transparente e inmutable donde todos los votos son verificables en la blockchain, eliminando preocupaciones sobre manipulación o fraude.
-
-4. **Experiencia de Usuario en dApps**: Mejora significativamente la experiencia de usuario en aplicaciones descentralizadas, que tradicionalmente han sido menos atractivas y funcionales que las aplicaciones web tradicionales.
+---
 
 ## 💡 Innovación
 
-- **Diseño Cross-Chain Nativo**: Diseñado desde cero para funcionar en múltiples cadenas, permitiendo una experiencia unificada.
-- **UX Mejorada para Web3**: Incorpora elementos de diseño modernos y animaciones para hacer que la interacción con la blockchain sea más atractiva.
-- **Arquitectura Escalable**: El sistema está diseñado para agregar fácilmente soporte para más redes blockchain.
-- **Feedback Visual Inmediato**: Proporciona retroalimentación visual inmediata para acciones que normalmente tomarían tiempo en confirmarse en la blockchain.
+- 🌐 **Diseño Cross-Chain Nativo** desde cero.  
+- 🎨 **UX mejorada para Web3** con animaciones y UI moderna.  
+- ⚡ **Arquitectura escalable** → fácil agregar nuevas cadenas.  
+- 🔔 **Feedback visual inmediato** → acciones confirmadas al instante.  
+
+---
 
 ## 🔮 Visión Futura: Activismo Digital con Impacto Real
 
-> ¿Te gustaría convertir tu opinión en impacto real?
+Queremos transformar el sistema en una herramienta de **impacto social verificable**:  
 
-Estamos desarrollando una expansión del sistema que transformará la forma en que las encuestas pueden generar cambio social:
+- 🏆 **Recompensas NFT** por participar.  
+- 🎮 **Gamificación con propósito** → votaciones con impacto social real.  
+- 📊 **Sistema de relevancia** → encuestas destacadas semanalmente.  
+- 💪 **Fondos transparentes** → contratos inteligentes auditables.  
 
-### 🏆 Recompensas por Participación
-- Vota en encuestas sociales clave y entra automáticamente al sorteo de NFTs exclusivos como recompensa por tu participación.
-
-### 🎮 Gamificación con Propósito
-- Al gamificar la experiencia, podrás apoyar causas que conecten con tu postura.
-- **Ejemplo**: "¿Consideras que el aborto debería ser legal?"
-  - Vota Sí o No.
-  - Si la pregunta alcanza alta relevancia, se activa un fondo de impacto social.
-  - 🟢 Si gana el Sí, los fondos podrían destinarse a campañas de concientización o apoyo a clínicas comunitarias.
-  - 🔴 Si gana el No, los fondos podrían apoyar alternativas como programas educativos o apoyo familiar.
-
-### 📊 Sistema de Relevancia
-- Las preguntas con más votos o mayor recaudación se destacarán semanalmente.
-- En caso de empate, se activaría un sistema dinámico de "doble votación" o participación extra que decide el destino final del fondo.
-
-### 💪 Impacto y Transparencia
-- Aborda el activismo digital con impacto directo, algo muy atractivo para jóvenes y comunidades Web3.
-- **Fondo transparente**: El uso de contratos inteligentes auditables para demostrar cómo se usan los fondos aumentaría la confianza.
-
-Esta funcionalidad está en desarrollo y representa nuestra visión para convertir el sistema de encuestas en una herramienta de cambio social real y verificable.
+---
 
 ## 🛠️ Tecnologías Utilizadas
 
-- **Frontend**:
-  - Next.js 14 (App Router)
-  - React 18
-  - TypeScript
-  - Tailwind CSS
-  - shadcn/ui (componentes)
-  - CSS Animations
+### **Frontend**
+- Next.js 14 (App Router)  
+- React 18  
+- TypeScript  
+- Tailwind CSS  
+- shadcn/ui  
+- Animaciones CSS  
 
-- **Blockchain**:
-  - Solidity (Smart Contracts)
-  - ethers.js (Interacción con blockchain)
-  - MetaMask (Wallet connection)
+### **Blockchain**
+- Solidity (Smart Contracts)  
+- ethers.js (interacción)  
+- MetaMask (conexión de wallet)  
 
-- **Redes**:
-  - Scroll Sepolia
-  - Arbitrum Sepolia
+### **Redes soportadas**
+- ✅ Scroll Sepolia  
+- ✅ Arbitrum Sepolia  
+
+---
+
+## 📂 Estructura del proyecto
+
+```
+
+ETHCDMX2025/
+├─ app/             # Páginas principales
+├─ components/      # Componentes UI
+├─ contracts/       # Smart contracts (Solidity)
+├─ hooks/           # Hooks personalizados
+├─ lib/             # Utilidades y configuración
+├─ public/          # Recursos estáticos
+├─ styles/          # Estilos globales
+├─ README.md
+├─ package.json
+├─ next.config.mjs
+├─ tailwind.config.ts
+└─ tsconfig.json
+
+````
+
+---
 
 ## 🔧 Instalación y Uso
 
-1. Clona este repositorio:
-   \`\`\`bash
-   git clone https://github.com/Tete/cross-chain-polling.git
-   cd cross-chain-polling
-   \`\`\`
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/TodTete/ETHCDMX2025.git
+   cd ETHCDMX2025
 
-2. Instala las dependencias:
-   \`\`\`bash
+2. Instala dependencias:
+
+   ```bash
    npm install
-   \`\`\`
+   ```
 
-3. Configura las direcciones de los contratos:
-   - Edita el archivo `lib/constants.ts` y actualiza las direcciones de los contratos para Scroll y Arbitrum.
+3. Configura las direcciones de contratos en `lib/constants.ts`.
 
-4. Inicia el servidor de desarrollo:
-   \`\`\`bash
+4. Ejecuta en modo desarrollo:
+
+   ```bash
    npm run dev
-   \`\`\`
+   ```
 
-5. Abre [http://localhost:3000](http://localhost:3000) en tu navegador.
+5. Abre en tu navegador:
+   👉 [http://localhost:3000](http://localhost:3000)
 
-## 📱 Uso de la Aplicación
+---
 
-1. **Conecta tu Wallet**: Haz clic en "Connect Wallet" para conectar MetaMask.
-2. **Selecciona una Red**: Elige entre Scroll Sepolia o Arbitrum Sepolia.
-3. **Crea una Encuesta**: Ve a la pestaña "Create Poll", ingresa una pregunta y opciones.
-4. **Vota en Encuestas**: Explora las encuestas existentes y vota en ellas.
+## 📱 Uso de la dApp
 
-## 🚀 Despliegue
+1. **Conecta tu Wallet** (MetaMask).
+2. **Selecciona una Red** → Scroll o Arbitrum Sepolia.
+3. **Crea una encuesta** en la pestaña *Create Poll*.
+4. **Vota** en las encuestas activas.
 
-El contrato inteligente debe desplegarse en:
-1. Scroll Sepolia Testnet
-2. Arbitrum Sepolia Testnet
+---
 
-Instrucciones detalladas para el despliegue:
+## 🚀 Despliegue de Contratos
 
-1. Usa Remix IDE o Hardhat para desplegar el contrato `SimplePoll.sol`.
-2. Actualiza las direcciones de los contratos en `lib/constants.ts`.
-3. Despliega el frontend en Vercel o tu plataforma preferida.
+1. Despliega en:
+
+   * Scroll Sepolia
+   * Arbitrum Sepolia
+
+2. Métodos recomendados:
+
+   * Remix IDE
+   * Hardhat
+
+3. Actualiza direcciones en `lib/constants.ts`.
+
+4. Despliega el frontend en **Vercel** u otra plataforma.
+
+📌 **Contratos verificados:**
+
+* [Scroll Sepolia](https://sepolia.scrollscan.com/address/0xD38D3C4865c784100493d4eAfAA2BFA37C28FA31)
+* [Arbitrum Sepolia](https://sepolia.arbiscan.io/address/0x4f523935f69247c6780536f4f38febc8bf5cec55#code)
+
+---
 
 ## 👨‍💻 Autor
 
-**@Tete**
+**Ricardo Vallejo (@Tete)**
+🔗 [Repositorio oficial](https://github.com/TodTete/ETHCDMX2025)
+
+---
 
 ## 📄 Licencia
 
-Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
+Este proyecto está bajo licencia **MIT**.
+Consulta el archivo [`LICENSE`](LICENSE) para más información.
+
+---
 
 ## 🙏 Agradecimientos
 
-- Gracias a Scroll y Arbitrum por proporcionar las redes de prueba.
-- Gracias a la comunidad de Ethereum por su continuo apoyo al desarrollo de dApps.
-
-## Extra 
-
-Sepolia address 
-https://sepolia.scrollscan.com/address/0xD38D3C4865c784100493d4eAfAA2BFA37C28FA31
-Arbitrum address + Contract Verify
-https://sepolia.arbiscan.io/address/0x4f523935f69247c6780536f4f38febc8bf5cec55#code
+* A **Scroll** y **Arbitrum** por sus testnets.
+* A la comunidad **Ethereum/Web3** por el soporte y recursos.
