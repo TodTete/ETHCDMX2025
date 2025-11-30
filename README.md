@@ -159,7 +159,7 @@ ETHCDMX2025/
 
 ## 👨‍💻 Autor
 
-**Ricardo Vallejo Sacnhez (@TodTete)**
+**Ricardo Vallejo Sacnhez (@TodTete) 5 Mayo 2025**
 🔗 [Repositorio oficial](https://github.com/TodTete/ETHCDMX2025)
 
 ---
