@@ -1,4 +1,4 @@
-# 🌐 Cross-Chain Polling System
+# 🌐 Cross-Chain Polling System (ETHCDMX2025)
 
 **Cross-Chain Polling System** es una **dApp** que permite crear y participar en encuestas a través de diferentes redes blockchain.  
 Actualmente soporta **Scroll Sepolia** y **Arbitrum Sepolia**, pero está diseñada para escalar a más cadenas.
